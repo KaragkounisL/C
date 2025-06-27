@@ -1,2 +1,2 @@
 # C
-C Programs for the course PLH10 Helenic Open University
+C programs for the course PLH10 Helenic Open University
