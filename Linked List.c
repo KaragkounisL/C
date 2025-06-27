@@ -21,19 +21,19 @@ int main()
    system("chcp 1253>nul");
    
    head=NULL;                
-   printf("Εισάγετε ακέραιο μη μηδενικό αριθμό, ή 0 για τερματισμό\n");
+   printf("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½, οΏ½ 0 οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½\n");
    scanf("%d",&data);        
    found=search(head,data);  
 
    while ((data!=0)&&(found==0))
    {
 	  head = insert(head,data);
-      printf("Εισάγετε ακέραιο μη μηδενικό αριθμό, ή 0 για τερματισμό\n");
+      printf("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½, οΏ½ 0 οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½\n");
       scanf("%d",&data);        
       found=search(head,data);  
       while (found!=0)
 	  {
-       printf("Εισάγετε διαφορετικό ακέραιο μη μηδενικό αριθμό, ή 0 για τερματισμό\n");
+       printf("οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½, οΏ½ 0 οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½\n");
        scanf("%d",&data);        
        found=search(head,data);	  
 	  }       	
@@ -49,7 +49,7 @@ int main()
 
 int search(struct node* head, int num)
 {
-   /*Anatrexoume ta dedomena tis listas me tin voitheia tis temp. Exoume orisei mia metavliti found
+   /*Anatrexoume ta dedomena ths listas me tin voitheia tis temp. Exoume orisei mia metavliti found
    isi me to 0. Otan vrethei ena stoixeio tis listas iso me ton zitoumeno arithmo allazei tin timi 
    tis found se 1 kai kanei break apo to loop. Telos epistrefei tin timi tis found os apotelesma tis
    synartisis  */
